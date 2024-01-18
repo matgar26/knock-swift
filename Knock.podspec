@@ -14,7 +14,7 @@ Pod::Spec.new do |spec|
   spec.homepage     = "https://knock.app"
   spec.license      = { :type => 'MIT', :file => 'LICENSE.md' }
   spec.author       = { "Knock" => "support@knock.app" }
-  spec.source       = { :git => "https://github.com/knocklabs/knock-swift.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/matgar26/knock-swift.git", :tag => "#{spec.version}" }
   spec.ios.deployment_target = '16.0'
   spec.swift_version = '5.0'
   spec.source_files  = "Sources/**/*"

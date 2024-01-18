@@ -6,6 +6,8 @@
 //
 
 import Foundation
+import SwiftPhoenixClient
+import AnyCodable
 
 public extension Knock {
     // MARK: Channels

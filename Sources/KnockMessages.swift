@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import AnyCodable
 
 public extension Knock {
     // MARK: Messages

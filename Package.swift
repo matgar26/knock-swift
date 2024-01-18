@@ -14,12 +14,16 @@ let package = Package(
             name: "Knock",
             targets: ["Knock"]),
     ],
-    dependencies: [],
+    dependencies: [
+        .package(url: "https://github.com/Flight-School/AnyCodable.git", .upToNextMajor(from: "0.6.0")),
+        .package(url: "https://github.com/davidstump/SwiftPhoenixClient.git", .upToNextMajor(from: "5.2.2"))
+    ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
         // Targets can depend on other targets in this package and products from dependencies.
         .target(
             name: "Knock",
+            dependencies: ["SwiftPhoenixClient", "AnyCodable"],
             path: "Sources"
         ),
     ]

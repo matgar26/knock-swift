@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import AnyCodable
 
 public protocol NetworkErrorProtocol: LocalizedError {
     var title: String? { get }
