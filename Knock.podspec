@@ -18,6 +18,6 @@ Pod::Spec.new do |spec|
   spec.ios.deployment_target = '16.0'
   spec.swift_version = '5.0'
   spec.source_files  = "Sources/**/*"
-  spec.dependency "AnyCodable", "~> 0.6.0"
-  spec.dependency "SwiftPhoenixClient", "~> 5.2.2"
+  spec.dependency 'AnyCodable-FlightSchool', '~> 0.6.0'
+  spec.dependency 'SwiftPhoenixClient', '~> 5.2'
 end
