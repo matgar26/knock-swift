@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "Knock"
-  spec.version      = "0.1.0"
+  spec.version      = "0.0.3"
   spec.summary      = "An SDK to build in-app notifications experiences in Swift with Knock.."
 
   spec.description  = <<-DESC
@@ -18,6 +18,6 @@ Pod::Spec.new do |spec|
   spec.ios.deployment_target = '16.0'
   spec.swift_version = '5.0'
   spec.source_files  = "Sources/**/*"
-  s.dependency "AnyCodable", "~> 0.6.0"
-  s.dependency "SwiftPhoenixClient", "~> 5.2.2"
+  spec.dependency "AnyCodable", "~> 0.6.0"
+  spec.dependency "SwiftPhoenixClient", "~> 5.2.2"
 end
